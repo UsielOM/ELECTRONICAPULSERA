@@ -21,6 +21,8 @@ void loop() {
   // read the input on analog pin 0:
   int sensorValue = analogRead(A0);
   int sensorValue = analogRead(A1);
+   int sensorValue = analogRead(A2);
+    int sensorValue = analogRead(A3);
   // print out the value you read:
   Serial.println(sensorValue);
   delay(1);        // delay in between reads for stability
